@@ -1,0 +1,17 @@
+.calculate__percent {
+  margin: -9px 0 auto auto;
+  width: 69px;
+  height: 54px;
+  font-family: 'Nekst-Black';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 120%;
+  color: #575757;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  background: #EBEBEC;
+  border-radius: 16px;
+}

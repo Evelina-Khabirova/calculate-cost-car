@@ -1,0 +1,10 @@
+.calculate__text_background {
+  background: #EBEBEC;
+  border-radius: 16px;
+  font-size: 20px;
+  line-height: 120%;
+  position: absolute;
+  top: 50px;
+  right: 5px;
+  z-index: 2;
+}

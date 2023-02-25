@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Калькулятор</title>
+</head>
+<body class="page">
+  <h1 class="header">Рассчитайте стоимость автомобиля в лизинг</h1>
+  <div class="calculate">
+    <div class="calculate__range-box">
+      <label class="calculate__range-name" for="cost-car">Стоимость автомобиля</label>
+      <input 
+        class="calculate__range-input"
+        id="costcarvalue"
+        placeholder="2469586"
+      />
+      <img src="<%=require('../images/rub.svg')%>" class="calculate__range-img" />
+      <input
+        class="calculate__range"
+        type="range"
+        id="cost-car"
+        name="cost-car"
+        min="0"
+        max="5000000"
+        oninput="costcarvalue.value=value"
+      >
+    </div>
+    <div class="calculate__range-box">
+      <label class="calculate__range-name" for="initial-payment">Первоначальный взнос</label>
+      <input 
+        class="calculate__range-input"
+        id="initialpaymentvalue"
+        placeholder="491484"
+      />
+      <img src="<%=require('../images/rub.svg')%>" class="calculate__range-img calculate__range-img_center" />
+      <p class="calculate__text calculate__text_background">13%</p>
+      <input
+        class="calculate__range"
+        type="range"
+        id="initial-payment"
+        name="initial-payment"
+        min="0"
+        max="1000000"
+        oninput="initialpaymentvalue.value=value"
+      >
+    </div>
+    <div class="calculate__range-box">
+      <label class="calculate__range-name" for="lease-term">Срок лизинга</label>
+      <input 
+        class="calculate__range-input"
+        id="leasetermvalue"
+        placeholder="36"
+      />
+      <p class="calculate__text">мес.</p>
+      <input
+        class="calculate__range"
+        type="range"
+        id="lease-term"
+        name="lease-term"
+        min="0"
+        max="72"
+        oninput="leasetermvalue.value=value"
+      />
+    </div>
+    <div class="calculate__result-box">
+      <p class="calculate__result-text">Сумма договора лизинга</p>
+      <p class="calculate__leasing-amount">4 467 313 ₽</p>
+    </div>
+    <div class="calculate__result-box">
+      <p class="calculate__result-text">Ежемесячный платеж от</p>
+      <p class="calculate__monthly-payment">114 455 ₽</p>
+    </div>
+    <a href="#" class="calculate__link">Оставить заявку</a>
+  </div>
+</body>
+</html>

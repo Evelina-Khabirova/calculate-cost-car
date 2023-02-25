@@ -1,0 +1,36 @@
+.calculate__link {
+  margin: 10px 0 0;
+  width: 426px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nekst-Black';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #FF9514;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.calculate__link:hover {
+  background: #111111;
+}
+
+.calculate__link:active {
+  background: #575757;;
+}
+
+.calculate__link:disabled {
+  background: rgba(255, 149, 20, 0.4);
+}
+
+@media screen and (max-width: 1300px) {
+  .calculate__link {
+    width: 320px;
+  }
+}

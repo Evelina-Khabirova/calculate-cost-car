@@ -1,0 +1,27 @@
+.calculate__range {
+  margin: -2px 24px 0;
+  padding: 0;
+  grid-row: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  cursor: ew-resize;
+  z-index: 2;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  height: 1px;
+  background: #E1E1E1;
+  background-image: linear-gradient(#FF9514, #FF9514);
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #FF9514;;
+  cursor: ew-resize;
+}

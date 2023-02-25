@@ -1,0 +1,21 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/calculate/calculate.css);
+@import url(../blocks/calculate/__range-box/calculate__range-box.css);
+@import url(../blocks/calculate/__range-name/calculate__range-name.css);
+@import url(../blocks/calculate/__range-input/calculate__range-input.css);
+@import url(../blocks/calculate/__range-img/calculate__range-img.css);
+@import url(../blocks/calculate/__range-img/_center/calculate__range-img_center.css);
+@import url(../blocks/calculate/__range/calculate__range.css);
+@import url(../blocks/calculate/__text/calculate__text.css);
+@import url(../blocks/calculate/__text/_background/calculate__text_background.css);
+@import url(../blocks/calculate/__result-box/calculate__result-box.css);
+@import url(../blocks/calculate/__result-text/calculate__result-text.css);
+@import url(../blocks/calculate/__leasing-amount/calculate__leasing-amount.css);
+@import url(../blocks/calculate/__monthly-payment/calculate__monthly-payment.css);
+@import url(../blocks/calculate/__link/calculate__link.css);

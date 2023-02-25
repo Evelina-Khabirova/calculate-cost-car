@@ -1,0 +1,10 @@
+.calculate__range-img_center {
+  right: 255px;
+}
+
+
+@media screen and (max-width: 1300px) {
+  .calculate__range-img_center {
+    right: 153px;
+  }  
+}
