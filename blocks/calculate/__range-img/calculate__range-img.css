@@ -5,3 +5,7 @@
   right: 21px;
   z-index: 2;
 }
+
+.calculate__range-input:disabled + .calculate__range-img {
+  opacity: .5;
+}

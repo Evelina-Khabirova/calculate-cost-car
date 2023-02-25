@@ -29,8 +29,14 @@
   background: rgba(255, 149, 20, 0.4);
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1439px) {
   .calculate__link {
     width: 320px;
+  }
+}
+
+@media screen and (max-width: 1119px) {
+  .calculate__link {
+    width: 345px;
   }
 }

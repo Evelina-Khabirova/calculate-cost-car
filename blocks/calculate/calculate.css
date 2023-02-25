@@ -7,3 +7,14 @@
   row-gap: 50px;
   column-gap: 32px;
 }
+
+@media screen and (max-width: 1119px) {
+  .calculate {
+    margin: 44px 0 156px;
+    padding: 0 36px;
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-rows: repeat(5, minmax(min-content, max-content));
+    row-gap: 39px;
+    column-gap: 17px;
+  }
+}

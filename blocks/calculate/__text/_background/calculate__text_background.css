@@ -1,5 +1,5 @@
 .calculate__text_background {
-  background: #EBEBEC;
+  background-color: #EBEBEC;
   border-radius: 16px;
   font-size: 20px;
   line-height: 120%;
@@ -7,4 +7,8 @@
   top: 50px;
   right: 5px;
   z-index: 2;
+}
+
+.calculate__range-input:disabled + .calculate__text_background {
+  opacity: .5;
 }

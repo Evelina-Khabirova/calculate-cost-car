@@ -14,6 +14,7 @@
   border-radius: 16px;
   position: relative;
   z-index: 1;
+  cursor: text;
 }
 
 .calculate__range-input:focus {
@@ -26,9 +27,19 @@
   outline: none;
 }
 
-@media screen and (max-width: 1300px) {
+.calculate__range-input:disabled {
+  cursor: default;
+  opacity: .5;
+}
+
+@media screen and (max-width: 1439px) {
   .calculate__range-input {
     width: 270px;
-    padding-left: 29px;
+  }
+}
+
+@media screen and (max-width: 1119px) {
+  .calculate__range-input {
+    width: 648px;
   }
 }

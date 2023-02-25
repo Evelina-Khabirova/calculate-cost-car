@@ -8,3 +8,10 @@
   line-height: 150%;
   color: #575757;
 }
+
+@media screen and (max-width: 1119px) {
+  .calculate__result-text {
+    margin-top: 5px;
+    width: 345px;
+  }
+}
